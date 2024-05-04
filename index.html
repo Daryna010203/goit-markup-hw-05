@@ -504,5 +504,98 @@
         </form>
       </div>
     </footer>
+    <!--Backdrop -->
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="close-btn" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <p class="form-name">Leave your contacts and we will call you back</p>
+        <form class="user-form">
+          <div class="feadback">
+            <label class="feadback-form-label" for="user-name">Name</label>
+            <div class="input-wraper">
+              <input
+                class="user-feadback"
+                type="text"
+                id="user-name"
+                name="user-name"
+                pattern="[A-Za-zА=Яа-яІіїЇєЄ']+"
+                title="Matvii"
+                required
+              />
+              <svg class="feadback-form-icons" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="feadback">
+            <label class="feadback-form-label" for="user-phone">Phone</label>
+            <div class="input-wraper">
+              <input
+                class="user-feadback"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                required
+              />
+              <svg class="feadback-form-icons" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="feadback">
+            <label class="feadback-form-label" for="user-email">Email</label>
+            <div class="input-wraper">
+              <input
+                class="user-feadback"
+                type="email"
+                id="user-email"
+                name="user-email"
+                title="goit@gmail.com"
+                required
+              />
+              <svg class="feadback-form-icons" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="feadback-texarea">
+            <label class="feadback-form-label" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="user-feadback-comment"
+              id="user-comment"
+              name="user-comment"
+              required
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="feadback checkbox-privacy-policy">
+            <input
+              class="feadback-checkbox"
+              type="checkbox"
+              id="privacy-policy"
+              name="privacy-policy"
+              value="true"
+              required
+            />
+            <label class="feadback-form-label feadback-form-label-privacy" for="privacy-policy"
+              >I accept the terms and conditions of the
+              <a href="" class="pravacy-policy-link">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
