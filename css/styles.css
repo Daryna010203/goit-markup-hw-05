@@ -467,7 +467,11 @@ a {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 16px;
   outline: none;
-  background-color: #2e2f42;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 .subscribe {
@@ -493,7 +497,7 @@ a {
   font-size: 12px;
   line-height: 200%;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-prescription {
@@ -626,6 +630,7 @@ a {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 
   background-color: transparent;
   outline: transparent;
