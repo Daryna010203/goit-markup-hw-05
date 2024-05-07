@@ -314,7 +314,7 @@ a {
 
 .social-list-icon {
   fill: #f4f4fd;
-  margin-left: 16px;
+  
 }
 .social-list-link {
   display: flex;
@@ -440,6 +440,10 @@ a {
 .social-list-item-footer {
   width: 40px;
   height: 40px;
+}
+
+.sicial-list-icon-footer {
+margin-left: 16px;
 }
 
 .social-list-link-footer {
